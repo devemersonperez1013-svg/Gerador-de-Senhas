@@ -1,0 +1,107 @@
+/* Importanto fonte da google */
+@import url('https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+
+/* Configurando o body */
+body {
+    font-family: "Tiktok Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1C4D8D;
+    background: radial-gradient(circle, rgba(28, 77, 141, 1) 0%, rgba(15, 40, 84, 1) 100%);
+    color: #f0f0f0;
+    /* min-height: 100vh; */
+}
+
+/* Container do card */
+.container-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    margin-top: 8rem;
+    width: 600px;
+    height: 600px;
+    background: rgba(211, 211, 211, 0.11);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.5px);
+    /* Esse webkit é um prefixo de vendo, isso ajuda os navegadores antigos possam ver o efeito */
+    -webkit-backdrop-filter: blur(1.5px);
+    border: 1px solid rgba(211, 211, 211, 0.66);
+}
+
+/* Conteiner do texto */
+.text-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+    margin: 0;
+}
+
+.text-container .title {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.text-container .text {
+    font-size: 1.2rem;
+}
+
+/* Container da senha */
+.password-generator-container {
+    margin-bottom: 1rem;     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.password-generator {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #242424;
+    outline: none;
+    width: 20rem;
+    text-align: center;
+}
+
+.password-generator:focus {
+    border-color: #4988C4;    
+}
+
+.success-div {
+    color: #48A111;
+    font-weight: bold;
+    font-size: medium;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    margin: 10px auto 0 auto;
+    width: 90%;
+    display: none;
+}
+
+/* Container dos checkboxes */
+.checks-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.checkbox {
+    font-size: large;  
+}
+
+/* Coisas para fazer */
+/* 1- Fazer responsabilidade para mobile e tablet */
+/* 2- Modificar a função passwordGenerator para crypto... */
+
+/* Melhorias */
+/* 1- localStorage */
+/* 2- Barra de força */
+/* 3- Slider de comprimento (input range) */

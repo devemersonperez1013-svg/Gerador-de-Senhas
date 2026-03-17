@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senhas</title>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/buttons.css">
+    <link rel="stylesheet" href="./css/responsividade.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+    <main class="container-card">
+        <section class="text-container">
+            <h2 class="title">Gerador de Senhas</h2>
+            <p class="text">Crie sua senha de forma segura usando o nosso gerador.</p>
+        </section>
+        <div class="password-generator-container">
+            <input type="text" id="passwordGenerator" class="password-generator" placeholder="Digita o tamanho a desejar...">            
+            <div id="feedbackDiv" class="success-div"></div>
+        </div>
+        <div class="buttons-container">
+            <!-- Adiconar botão gerar -->
+            <button id="generate" class="btn-generate"><span class="material-symbols-outlined">add_circle</span>Gerar Senha</button>
+            <button id="copy" class="btn-copy"><span class="material-symbols-outlined">content_copy</span>Copiar Senha</button>
+        </div>
+        <h3>Caracteres Utilizados:</h3>
+        <div class="checks-container">            
+            <div class="checkbox">
+                <input type="checkbox" id="maiusculas" checked>
+                <label for="maiúsculas">Letras Maiúsculas</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="minusculas" checked>
+                <label for="minúsculas">Letras Minúsculas</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="numeros" checked>
+                <label for="números">Números</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="simbolos" checked>
+                <label for="símbolos">Caracteres especiais</label>
+            </div>
+        </div>
+
+        <script type="module" src="js/main.js"></script>
+        <!-- Adicionar janela de feedback -->
+    </main>
+</body>
+</html>

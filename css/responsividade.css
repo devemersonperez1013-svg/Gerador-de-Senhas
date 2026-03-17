@@ -1,0 +1,39 @@
+/* Responsividade para Tablet */
+@media screen and (max-width: 1024px) {
+    .container-card {
+        width: 60%; 
+        height: 65dvh;       
+    }
+
+    .text-container .title {
+        font-size: 2.9rem;        
+    }
+
+    .text-container .text {
+        font-size: 1.1rem;
+    }
+
+    .btn-generate, .btn-copy {
+        padding: 0.7rem 0.7rem;                
+    }    
+}
+
+/* Responsividade para mobile */
+@media screen and (max-width: 768px){
+    .container-card {
+        width: 60%;
+        height: 65dvh;
+    }
+
+    .text-container .title {
+        font-size: 2.5rem;        
+    }
+
+    .text-container .text {
+        font-size: 1rem;
+    }
+
+    .btn-generate, .btn-copy {
+        padding: 10px;                
+    }    
+}
