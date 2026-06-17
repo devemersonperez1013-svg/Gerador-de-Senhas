@@ -19,6 +19,6 @@ Um gerador de senhas interativo que faz suas senhas automaticamente em tempo rea
 ## Como executar localmente
 ```
 # Clone o respositório:
-
+https://github.com/devemersonperez1013-svg/Gerador-de-Senhas.git
 # Abra o arquivo no index.html no navegador
 ```
